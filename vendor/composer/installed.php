@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
         'name' => 'doublybear/stripe-product-initiator-package',
-        'pretty_version' => '1.0.0+no-version-set',
+        'pretty_version' => '1.0.0',
         'version' => '1.0.0.0',
         'reference' => NULL,
         'type' => 'library',
@@ -11,7 +11,7 @@
     ),
     'versions' => array(
         'doublybear/stripe-product-initiator-package' => array(
-            'pretty_version' => '1.0.0+no-version-set',
+            'pretty_version' => '1.0.0',
             'version' => '1.0.0.0',
             'reference' => NULL,
             'type' => 'library',

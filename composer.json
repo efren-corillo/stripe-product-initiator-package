@@ -1,6 +1,7 @@
 {
     "name": "doublybear/stripe-product-initiator-package",
     "description": "A small simple product creator for stripe, just give a stripe key and a array/json formatted product list with all the necesarry field, and it will generate stripe products.",
+    "version": "1.0.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {

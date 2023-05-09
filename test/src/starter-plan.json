@@ -1,0 +1,53 @@
+[
+  {
+    "product": {
+      "name": "Test Starter Plan",
+      "metadata": {
+        "plan_name": "starter"
+      }
+    },
+    "prices": [
+      {
+        "currency": "USD",
+        "billing_scheme": "per_unit",
+        "unit_amount": 16800,
+        "recurring": {
+          "interval": "year",
+          "interval_count": 1
+        },
+        "default_price": true
+      },
+      {
+        "currency": "USD",
+        "billing_scheme": "per_unit",
+        "unit_amount": 11700,
+        "recurring": {
+          "interval": "year",
+          "interval_count": 1
+        }
+      },
+      {
+        "currency": "USD",
+        "billing_scheme": "per_unit",
+        "unit_amount": 0,
+        "recurring": {
+          "interval": "year",
+          "interval_count": 1
+        }
+      },
+      {
+        "currency": "USD",
+        "billing_scheme": "per_unit",
+        "unit_amount": 2900,
+        "recurring": {
+          "interval": "month",
+          "interval_count": 1
+        }
+      },
+      {
+        "currency": "USD",
+        "unit_amount": 6700
+      }
+    ]
+  }
+]

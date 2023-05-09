@@ -1,0 +1,69 @@
+[
+  {
+    "product" : {
+      "name" : "Test Business Unlimited Plan 2",
+      "metadata" : {
+        "plan_name": "business"
+      }
+    },
+    "prices": [
+      {
+        "currency": "USD",
+        "billing_scheme": "tiered",
+        "tiers_mode": "graduated",
+        "recurring": {
+          "interval": "year",
+          "interval_count": 1
+        },
+        "tiers":[
+          {
+            "up_to": 5,
+            "flat_amount_decimal": 948.00
+          },
+          {
+            "up_to": "inf",
+            "unit_amount_decimal": 228.00
+          }
+        ],
+        "default_price": true
+      },
+      {
+        "currency": "USD",
+        "billing_scheme": "tiered",
+        "tiers_mode": "graduated",
+        "recurring": {
+          "interval": "year",
+          "interval_count": 1
+        },
+        "tiers":[
+          {
+            "up_to": 5,
+            "flat_amount_decimal": 708.00
+          },
+          {
+            "up_to": "inf",
+            "unit_amount_decimal": 168.00
+          }
+        ]
+      },
+      {
+        "currency": "USD",
+        "billing_scheme": "tiered",
+        "tiers_mode": "graduated",
+        "recurring": {
+          "interval": "month",
+          "interval_count": 1
+        },
+        "tiers":[
+          {
+            "up_to": 5,
+            "flat_amount_decimal": 99.00
+          },{
+            "up_to": "inf",
+            "unit_amount_decimal": 29.00
+          }
+        ]
+      }
+    ]
+  }
+]

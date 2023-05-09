@@ -19,6 +19,8 @@ use Stripe\Exception\ApiErrorException;
      */
     public function createProduct(string $key, array $products)
     {
+        var_dump($key, $products);
+
         $this->stripe = new Stripe\StripeClient($key);
 
         $productIds = [];

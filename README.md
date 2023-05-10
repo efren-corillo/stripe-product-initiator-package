@@ -21,7 +21,7 @@ echo   implode(',', $keys);
 
 ## Json format example
 > please refer to the stripe api documentation at https://stripe.com/docs/api/products
-### with Tiers example
+### with Tiers example json file
 ```
 [
   {
@@ -93,7 +93,7 @@ echo   implode(',', $keys);
   }
 ]
 ```
-### with-out Tiers example
+### with-out Tiers example json file
 ```
 [
   {

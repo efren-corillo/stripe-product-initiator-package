@@ -20,6 +20,7 @@ echo   implode(',', $keys);
 ```
 
 ## Json format example
+> please refer to the stripe api documentation at https://stripe.com/docs/api/products
 ### with Tiers example
 ```
 [

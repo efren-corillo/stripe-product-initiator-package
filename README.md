@@ -1,4 +1,7 @@
 # stripe-product-initiator-package
+## To Install use
+```composer require doublybear/stripe-product-initiator-package```
+## To Use
 ```
 <?php
 require('../vendor/autoload.php');
